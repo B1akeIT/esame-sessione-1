@@ -87,7 +87,7 @@ h2.titolo {
     font-weight: 700;
     font-size: 26px;
     line-height: 40px;
-
+    border-bottom: 2px solid #CCCCCC;
 
     color: #495670;
 }
@@ -96,6 +96,16 @@ article.lista-eventi {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+section.evento {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.immagine-evento {
+    width: fit-content;
 }
 
 .immagine-evento img {
@@ -109,12 +119,45 @@ article.lista-eventi {
     gap: 10px;
 }
 
+.header-evento {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titolo-evento {
+    font-size: 22px;
+    line-height: 120%;
+    font-weight: bold;
+    color: #495670;
+}
+
+.data-evento {
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 500;
+    color: #CCCCCC;
+}
+
+.descrizione-evento {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Le proprietà webkit servono per dare un massimo di righe di contenuto che da mostrare. */
+.home-page .descrizione-evento {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
 .descrizione-evento a {
     font-weight: 500;
     color: #495670;
 }
 
-.descrizione-evento p  {
+.descrizione-evento p {
     margin: 0;
 }
 
