@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(78, 115, 141, 0.5);
+}
+
+.page-wrapper {
+    /*
+    width: 60%;
+    margin: auto;
+    height: 100%;
+    min-height: 300px;
+    background-color: white;
+     */
+
+    padding: 0 40px;
+    margin: 0 20%;
+    height: 100%;
+    min-height: 300px;
+    background-color: white;
+}
+
+header {
+    max-height: 150px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-buttons {
+    display: flex;
+    width: 70%;
+    justify-content: flex-end;
+}
+
+.button-list {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* white-space: nowrap; */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.button-list li {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.button-list li a {
+    text-decoration: none;
+    color: #495670;
+    transition: all 0.2s ease;
+}
+
+.button-list li.sport-button:hover a {
+    color: #F46F51;
+}
+
+.button-list li.arte-button:hover a {
+    color: #40F85D;
+}
+
+.button-list li.docenti-button:hover a {
+    color: #BE5AFB;
+}
+
+.button-list li.maestri-button:hover a {
+    color: #FABB1B;
+}
+
+.button-list li.contatti-button:hover a {
+    color: #5A9CFF;
+}
+
+h2.titolo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 40px;
+
+
+    color: #495670;
+}
+
+article.lista-eventi {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.immagine-evento img {
+    border: 5px solid #4E738D;
+}
+
+.dettagli-evento {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.descrizione-evento a {
+    font-weight: 500;
+    color: #495670;
+}
+
+.descrizione-evento p  {
+    margin: 0;
+}
+
+.descrizione-evento p:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.footer-evento a {
+    color: black;
+    line-height: 200%;
+}
