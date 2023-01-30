@@ -51,6 +51,7 @@ header {
 
 .button-list li {
     display: inline-block;
+    text-align: center;
     font-size: 18px;
     font-weight: 500;
     line-height: 120%;
@@ -62,27 +63,36 @@ header {
     transition: all 0.2s ease;
 }
 
-.button-list li.sport-button:hover a {
+.button-list li.sport-button:hover a,
+.button-list li.sport-button.attivo a {
     color: #F46F51;
 }
 
-.button-list li.arte-button:hover a {
+.button-list li.arte-button:hover a,
+.button-list li.arte-button.attivo a {
     color: #40F85D;
 }
 
-.button-list li.docenti-button:hover a {
+.button-list li.docenti-button:hover a,
+.button-list li.docenti-button.attivo a {
     color: #BE5AFB;
 }
 
-.button-list li.maestri-button:hover a {
+.button-list li.maestri-button:hover a,
+.button-list li.maestri-button.attivo a {
     color: #FABB1B;
 }
 
-.button-list li.contatti-button:hover a {
+.button-list li.contatti-button:hover a,
+.button-list li.contatti-button.attivo a {
     color: #5A9CFF;
 }
 
-h2.titolo {
+
+/***** Stile home page + evento singolo *****/
+
+.home-page h2.titolo,
+.elemento-singolo h2.titolo {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -168,4 +178,18 @@ section.evento {
 .footer-evento a {
     color: black;
     line-height: 200%;
+}
+
+
+/***** Stile pagina "Sport e Benessere" *****/
+
+
+.pagina-sport h2.titolo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+
+    color: #F46F51;
+    -webkit-text-stroke: 0.5px rgba(128, 26, 3, 0.5);
 }
