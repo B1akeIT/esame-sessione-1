@@ -191,9 +191,18 @@ section.evento {
     font-weight: 600;
     font-size: 34px;
     line-height: 40px;
-
+    margin: 20px 0 10px 0;
     color: #F46F51;
     -webkit-text-stroke: 0.5px #721500;
+}
+
+.banner-immagini {
+    display: flex;
+    margin: 0 -40px;
+}
+
+.banner-immagini img {
+    width: 50%;
 }
 
 .descrizione-pagina a {
@@ -209,4 +218,28 @@ section.evento {
     margin-bottom: 5px;
 }
 
+.sale-palestra h3.sottotitolo {
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #F34923;
+}
 
+.container-immagini {
+    display: flex;
+    gap: 40px;
+}
+
+.immagine-sala {
+    max-width: 340px;
+}
+
+.immagine-sala img {
+    width: 100%;
+    border: 5px solid #4E738D;
+}
+
+.immagine-sala img:hover {
+    border: 5px solid #F34923;
+}
