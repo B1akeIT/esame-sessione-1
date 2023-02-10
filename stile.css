@@ -92,6 +92,7 @@ header {
 
 
 /***** Stile home page + evento singolo *****/
+/* Molti elementi di queste pagine sono condivisi, quindi sono nella stessa sezione */
 
 .home-page h2.titolo,
 .elemento-singolo h2.titolo {
@@ -184,6 +185,7 @@ section.evento {
 
 
 /***** Stile pagina "Sport e Benessere" *****/
+/* Molti elementi di queste pagine sono condivisi, quindi sono nella stessa sezione */
 
 
 .pagina-sport h2.titolo,
