@@ -186,28 +186,53 @@ section.evento {
 /***** Stile pagina "Sport e Benessere" *****/
 
 
-.pagina-sport h2.titolo {
+.pagina-sport h2.titolo,
+.pagina-arte h2.titolo {
     font-style: normal;
     font-weight: 600;
     font-size: 34px;
     line-height: 40px;
     margin: 20px 0 10px 0;
+}
+
+.pagina-sport h2.titolo {
     color: #F46F51;
     -webkit-text-stroke: 0.5px #721500;
 }
 
-.banner-immagini {
+.pagina-arte h2.titolo {
+    color: #40F85D;
+    -webkit-text-stroke: 0.5px #0FAE29;
+}
+
+.pagina-sport .banner-immagini {
     display: flex;
     margin: 0 -40px;
 }
 
-.banner-immagini img {
+.pagina-sport .banner-immagini img {
     width: 50%;
 }
 
-.descrizione-pagina a {
+.pagina-arte .banner-immagini {
+    display: flex;
+    justify-content: center;
+}
+
+.pagina-arte .banner-immagini img {
+    width: 30%;
+    max-width: 300px;
+}
+
+.pagina-sport .descrizione-pagina a {
     font-weight: 500;
     color: #F46F51;
+}
+
+.pagina-arte .descrizione-pagina a,
+.pagina-arte .descrizione-accademia a {
+    font-weight: 500;
+    color: #05E429;
 }
 
 .descrizione-pagina p {
@@ -218,12 +243,20 @@ section.evento {
     margin-bottom: 5px;
 }
 
-.sale-palestra h3.sottotitolo {
+.sale-palestra h3.sottotitolo,
+.discorso-accademia h3.sottotitolo {
     font-size: 26px;
     line-height: 36px;
     font-weight: 600;
     margin-bottom: 5px;
+}
+
+.sale-palestra h3.sottotitolo {
     color: #F34923;
+}
+
+.discorso-accademia h3.sottotitolo {
+    color: #40F85D;
 }
 
 .container-immagini {
@@ -235,11 +268,16 @@ section.evento {
     max-width: 340px;
 }
 
-.immagine-sala img {
+.immagine-sala img,
+.immagine-arte img {
     width: 100%;
     border: 5px solid #4E738D;
 }
 
 .immagine-sala img:hover {
     border: 5px solid #F34923;
+}
+
+.immagine-arte img:hover {
+    border: 5px solid #05E429;
 }
