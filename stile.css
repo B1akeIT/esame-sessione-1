@@ -189,7 +189,8 @@ section.evento {
 
 
 .pagina-sport h2.titolo,
-.pagina-arte h2.titolo {
+.pagina-arte h2.titolo,
+.pagina-contatti h2.titolo {
     font-style: normal;
     font-weight: 600;
     font-size: 34px;
@@ -205,6 +206,11 @@ section.evento {
 .pagina-arte h2.titolo {
     color: #40F85D;
     -webkit-text-stroke: 0.5px #0FAE29;
+}
+
+.pagina-contatti h2.titolo {
+    color: #5A9CFF;
+    -webkit-text-stroke: 0.5px #1953AA;
 }
 
 .pagina-sport .banner-immagini {
@@ -270,8 +276,14 @@ section.evento {
     max-width: 340px;
 }
 
+.immagine-mappa {
+    width: 50%;
+    max-width: 500px;
+}
+
 .immagine-sala img,
-.immagine-arte img {
+.immagine-arte img,
+.immagine-mappa img {
     width: 100%;
     border: 5px solid #4E738D;
 }
@@ -282,4 +294,9 @@ section.evento {
 
 .immagine-arte img:hover {
     border: 5px solid #05E429;
+}
+
+
+.immagine-mappa img:hover {
+    border: 5px solid #5A9CFF;
 }
